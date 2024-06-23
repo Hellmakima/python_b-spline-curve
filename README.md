@@ -43,7 +43,7 @@ To run this project, you need:
 
 Here’s a screenshot of the program in action:
 
-![Bezier Curves Example](example.png)
+![Bezier Curves Example](https://github.com/Hellmakima/python_b-spline-curve/edit/main/b-spline_curve.PNG?raw=true)
 
 ---
 
