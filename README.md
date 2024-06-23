@@ -30,7 +30,7 @@ To run this project, you need:
 
 ## Credits
 
-- **Author**: Sufiayn
+- **Author**: Sufiyan
 - **License**: This project is licensed under nothing.
 
 ## Notes
@@ -45,6 +45,6 @@ Here’s a screenshot of the program in action:
 
 ![Bezier Curves Example](https://github.com/Hellmakima/python_b-spline-curve/blob/main/b-spline_curve.PNG)
 
----
+## Youtube inspiartion
 
-Feel free to expand this README with more details or explanations specific to your implementation or intended use of Bezier curves with Pygame.
+[![Maze Runner Video](https://img.youtube.com/vi/PjVvR0iu7qo/0.jpg)](https://youtu.be/PjVvR0iu7qo)
