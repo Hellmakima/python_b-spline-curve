@@ -1,4 +1,4 @@
-# Bezier Curve Drawing with Pygame
+# B-Spline Curves with Pygame
 
 This project demonstrates drawing Bezier curves using Pygame, a popular library for game development in Python.
 
@@ -6,42 +6,20 @@ This project demonstrates drawing Bezier curves using Pygame, a popular library 
 
 The project allows you to draw points on a Pygame window by clicking with the mouse. It then constructs and displays Bezier curves based on these points using various techniques:
 
-- **Bezier Curve Calculation**: The project implements a function to calculate points on a Bezier curve given control points.
-- **Curve Smoothing**: It smooths out the curve by adding additional control points between the original points.
-- **Visualization**: Each point and segment of the curve is rendered using Pygame's drawing functions.
+- **Bezier Curve**: A curve defined by a start end and two control points.
+- **B-Spline Curve**: A continuous curve with multiple control points drawn using Bezier curves.
 
-## Requirements
+_honestly doesn't deserve to be a whole repo._
 
-To run this project, you need:
+## Usage
 
-- Python 3.x
-- Pygame library (`pip install pygame`)
-
-## How to Use
-
-1. **Run the Program**: Execute the Python script (`python bezier_curves.py`).
+1. **Run the Program**: get pygame and run the program.
 2. **Add Control Points**: Click on the Pygame window to add control points. These points will define the Bezier curve.
-3. **Quit**: Press any key or close the window to quit the program.
-
-## Files
-
-- **bezier_curves.py**: The main Python script containing the code to draw Bezier curves.
-- **readme.md**: This file, providing information about the project.
-
-## Credits
-
-- **Author**: Sufiyan
-- **License**: This project is licensed under nothing.
-
-## Notes
-
-- Modify the `fps` variable to adjust the frame rate.
-- Adjust the `offset` parameter in `draw_bezier` function for smoother or coarser curves.
-- Feel free to experiment with different points and curves to understand how Bezier curves work.
+3. **Tweak parameters**: Adjust the parameters to change the smoothness and other settings.
 
 ## Example
 
-Here’s a screenshot of the program in action:
+Here's a screenshot of the program in action:
 
 ![Bezier Curves Example](https://github.com/Hellmakima/python_b-spline-curve/blob/main/b-spline_curve.PNG)
 
